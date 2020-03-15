@@ -82,6 +82,14 @@ class ReactSwipe extends Component {
     this.swipe.slide(...args);
   }
 
+  disableSwiping() {
+    this.swipe.disableSwiping();
+  }
+
+  enableSwiping() {
+    this.swipe.enableSwiping();
+  }
+
   getPos() {
     return this.swipe.getPos();
   }
